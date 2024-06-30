@@ -1,0 +1,36 @@
+composer:
+  last: Eybler
+  first: Joseph Leopold Edler von
+title: Missa Sancti Josephi (Sancti Rudolphi)
+id: HerEy 17
+genre: mass
+scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (F), 2 clno (\flat B/C), timp (\flat B–F/C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 568 (1)
+    date: 1807
+    license: public domain
+    principal: true
+    notes: full score (131 pages)
+  C1:
+    siglum: A-Wn
+    shelfmark: SA.82.A.22/9
+    date: 1829
+    url: https://data.onb.ac.at/rec/AC09173351
+    license: public domain
+    notes: full score; Tobias Haslinger, Vienna, plate number 5427
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.72
+    date: 1829
+    url: https://data.onb.ac.at/rec/AC14265898
+    license: public domain
+    notes: parts; Tobias Haslinger, Vienna, plate number 5430
+imslp:
+parts:
+  cor12: Corno I, II in F
+  ottoni: Clarino I, II in \flat B/C\\Timpani in \flat B–F/C–G
+  vla: Viole
+  b: Violoncello \& Bassi
