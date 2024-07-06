@@ -30,3 +30,11 @@ KyrieOboeI = {
     f4.\! r8 r4 r8\fermata \bar "|." %29 finis
   }
 }
+
+GloriaOboeI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoGloria
+
+  }
+}

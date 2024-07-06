@@ -31,3 +31,11 @@ KyrieFagottoII = {
     f4.\! r8 r4 r8\fermata \bar "|." %29 finis
   }
 }
+
+GloriaFagottoII = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoGloria
+
+  }
+}

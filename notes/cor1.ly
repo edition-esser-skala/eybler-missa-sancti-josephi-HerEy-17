@@ -28,3 +28,11 @@ KyrieCornoI = {
     r2 r4 r8\fermata \bar "|." %29 finis
   }
 }
+
+GloriaCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+
+  }
+}
