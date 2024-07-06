@@ -11,7 +11,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \setGroupDistance #15 #15 } <<
             \new Staff {
               \set Staff.instrumentName = "Oboe I, II"
               \partCombine #'(0 . 10) \KyrieOboeI \KyrieOboeII
@@ -25,7 +25,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
-            % \transpose c f,
+            \transpose c f,
             \partCombine #'(0 . 10) \KyrieCornoI \KyrieCornoII
           >>
         >>
@@ -81,7 +81,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 55 }
     }
   }
 }
