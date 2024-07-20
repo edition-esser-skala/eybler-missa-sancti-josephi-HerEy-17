@@ -321,3 +321,199 @@ GloriaFagottoI = {
     f r r\fermata \bar "|." %389 finis
   }
 }
+
+CredoFagottoI = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoCredo
+    f1~\f
+    f4 f f f
+    f1~
+    f4 f f f
+    e2 g %5
+    f4 f2 f4
+    f g a e'
+    d h c g~
+    g \pao a g2
+    e4 g a f' %10
+    e g,2 g4~
+    g g g c
+    h1~
+    h4 h h h
+    c1~ %15
+    c4 c, g' c
+    a2 h\trill
+    c4 e c g
+    g2 a
+    f4 f' e2 %20
+    e4 c d a
+    h e2 e4
+    e2 e
+    d e4 f
+    e2. d4 %25
+    c c2 c4
+    c1~
+    c4 f, f f
+    f1~
+    f4 f f f %30
+    f1~
+    f2 f'~
+    f4 e! d c
+    c c2 c4
+    f,1~ %35
+    f4 f' es d
+    c f2 f4
+    f1
+    f
+    es4 g f es %40
+    d2 c\trill
+    d4 d2 d4
+    d1
+    d4 d2 d4
+    d1 %45
+    d4 d2 b4
+    c1~
+    c2 a
+    d c
+    c \pa f~ %50
+    f g~
+    g f~
+    f e~
+    e d~
+    d4 c b f'~ %55
+    f \pd b, c d
+    c2. b4
+    a r r2
+    r4 b b g
+    c2. a4 %60
+    r d d b
+    e2. c4
+    r f f f,
+    g2 c~
+    c4 \pao f, d' b %65
+    a c2 c4 \noBreak
+    a2 r\fermata
+    \key b \major \time 3/4 \tempoEtIncarnatus
+      R2.*40 \noBreak %107
+    R2.\fermata \bar "||"
+    \key f \major \tempoEtResurrexit
+      b,4\f d f \noBreak
+    b r r %110
+    es2\fz d4
+    R2.
+    g2\fz f4
+    \pa b, r b,
+    d b d %115
+    f' d b
+    f' f, f \pd
+    a2.
+    c~
+    c %120
+    a4 c f~
+    f d b
+    f f' r
+    R2.
+    r4 d\ff d %125
+    b r r
+    r f' f
+    d2.
+    es4 r \pa g
+    f2 es4 \pd %130
+    d d2~\sf
+    d4 f2~\sf
+    f4 d2\sf
+    b4 r r
+    R2. %135
+    a^\tenuto
+    R
+    h^\tenuto
+    R
+    c2. %140
+    g\cresc
+    a2\f b4
+    a d d
+    d a r8. a16
+    a2\fz r4 %145
+    R2.*17 %162
+    r4 d2\f
+    r4 c2
+    r4 b2 %165
+    r4 c2
+    r4 c c
+    f,2.
+    c'
+    f,4. g8 a d %170
+    d4 h d
+    e2 d4
+    c d e
+    \pa f a, d~
+    d c a %175
+    g2 \pd g4
+    \pao c, c'2
+    f4 d2
+    f4 h,2
+    c4 r r %180
+    R2.*3
+    r4 c\f c
+    c2. %185
+    c
+    c
+    c
+    \pa b
+    a %190
+    g2 \pd g4
+    a2 a4
+    b a2
+    \pao d,4 d'2
+    b4 b2 %195
+    \pao a4 cis2
+    r4 d d
+    d2.~
+    d~
+    d2 b4 %200
+    g2 c4
+    c2.
+    c
+    c
+    c %205
+    d
+    c
+    \pao b4 r r
+    R2.*7 %215
+    r4 a\f b
+    c2 a4
+    r a8 g a b
+    c2 a4
+    R2.*2 %221
+    r4 cis\f cis
+    d2 r4
+    r d d
+    e!2 r4 %225
+    r c c
+    c h b
+    a2.
+    e
+    f %230
+    f'4 e d
+    c d b
+    c2 c,4
+    f r r
+    R2.*4 %238
+    r8 f(\pE e f b d)
+    c4( f) f %240
+    f( g,) g
+    g( b) b
+    a8( f e f b d)
+    c4 r r
+    R2.*3 %247
+    b2.\f
+    a4\ff f'8( e d c)
+    b2 c4 %250
+    f, r r
+    f2.\fz
+    f4 r r
+    f2.\fz
+    f4 f f %255
+    f r r\fermata \bar "|." %256 finis
+  }
+}

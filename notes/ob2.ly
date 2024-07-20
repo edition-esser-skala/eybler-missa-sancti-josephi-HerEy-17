@@ -291,3 +291,192 @@ GloriaOboeII = {
     a r r\fermata \bar "|." %389 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoCredo
+    a'1~\f
+    a4 a a a
+    b1~
+    b4 b b b
+    g2 e %5
+    f4 a2 a4
+    a g f a
+    g2 g4 h
+    c c2 h4
+    c g' f d, %10
+    e1~
+    e4 e e e
+    g1~
+    g4 g g g
+    g2 c~ %15
+    c4 g2 e4
+    g2. f4\trill
+    e c e g
+    c1
+    h %20
+    a4 e f d
+    e gis2 gis4
+    a2 a
+    a2. h4
+    a2. gis4 %25
+    a e2 e4
+    a2 b!\trill
+    a4 a a a
+    b1~
+    b4 b b b %30
+    a1
+    c2 a
+    b4 a f g
+    f f2 f4
+    a4. b8 c4 b %35
+    a b a g
+    f a c c
+    \appoggiatura c b2 a
+    b1~
+    b4 es d c %40
+    b2 a\trill
+    b4 f2 f4
+    f2 fis
+    g4 g2 g4
+    a1 %45
+    g4 g2 g4
+    g1
+    a
+    f2 e
+    f c'~ %50
+    c b~
+    b a~
+    a g~
+    g f~
+    f4 f2 f4~ %55
+    f b a g
+    f2 e\trill
+    f4 r r2
+    r4 f f b
+    g2. c4 %60
+    r a a d
+    b2. e!4
+    r c c f
+    d2 g,~
+    g4 f2 e4 %65
+    f f2 a4 \noBreak
+    c2 r\fermata \bar "||"
+    \key b \major \time 3/4 \tempoEtIncarnatus
+      R2.*40 \noBreak %107
+    R2.\fermata \bar "||"
+    \key f \major \tempoEtResurrexit
+      b4\f d, f \noBreak
+    b r r %110
+    g2\fz f4
+    R2.
+    es'2\fz d4
+    b f b
+    d b d %115
+    f d b
+    f r r
+    R2.
+    f
+    a %120
+    c
+    d4 f b
+    a a, r
+    R2.
+    r4 f\ff f %125
+    f r r
+    r b b
+    b2.~
+    b4 r c
+    b2 a4 %130
+    b f2~\sf
+    f4 b2~\sf
+    b4 b2\sf
+    d4 r r
+    R2. %135
+    es,_\tenuto
+    R
+    f_\tenuto
+    R
+    es %140
+    g\cresc
+    fis2\f g4
+    fis a b
+    a fis r8. fis16
+    fis2\fz r4 %145
+    R2.*17 %162
+    r4 d'2\f
+    r4 c2
+    r4 b2 %165
+    r4 g2
+    r4 a a
+    b2.
+    g2 f4
+    a2. %170
+    g4 h h
+    c2 g4
+    c g g
+    a2 a4
+    g2 c4 %175
+    c2 h4\trill
+    c g2
+    a4 f'2
+    d,4 f2
+    e4 r r %180
+    R2.*3
+    r4 e\f e
+    g2. %185
+    a
+    b2 g4
+    f2.
+    f2 g4
+    e2 f4 %190
+    d g g'
+    e2 d4
+    g, f e
+    f a2
+    g4 g'2 %195
+    e,4 a2
+    r4 a a
+    b2.
+    c2 a4
+    b g g %200
+    g2.
+    a
+    b2 g4
+    a f a
+    f2.~ %205
+    f~
+    f~
+    f4 r r
+    R2.*7 %215
+    r4 f\f g
+    a2 f4
+    r f8 e f g
+    a2 f4
+    R2.*2 %221
+    r4 a\f a
+    a2 r4
+    r b b
+    b2 r4 %225
+    r e, e
+    e f g
+    a2.
+    c
+    c2 a4 %230
+    d c b
+    a f g'
+    f2 e4
+    f r r
+    R2.*13 %247
+    c2.\f
+    f8(\ff e d c b a)
+    g4 d' b %250
+    a r r
+    c2.\fz
+    a4 r r
+    c2.\fz
+    a4 a a %255
+    a r r\fermata \bar "|." %256 finis
+  }
+}

@@ -106,3 +106,106 @@ GloriaTimpani = {
     R2.\fermata \bar "|." %389 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    g2\f r
+    r4 g8. g16 g4 g
+    g r r2
+    r4 g8. g16 g4 g
+    R1 %5
+    r4 g8. g16 g4 g
+    g r r2
+    R1*20 %27
+    g4 r8 g16 g g4 g
+    c r r2
+    c4 r8 c16 c c4 c %30
+    g2 r
+    g r
+    R1
+    g4 r8 g16 g g4 g
+    g r r2 %35
+    R1*3
+    c4 r8 \tuplet 3/2 8 { c16 c c } c4 c
+    c2 r %40
+    R1
+    c4 r8 c16 c c4 c
+    c r r2
+    R1*11 %54
+    c4 r r2 %55
+    R1*2
+    g4 r r2
+    R1*2 %60
+    g4 r r2
+    R1
+    g4 r r2
+    R1*2 %65
+    g4 r8 \tuplet 3/2 8 { g16 g g } g4 g \noBreak
+    g2 r\fermata
+    \time 3/4 \tempoEtIncarnatus
+      R2.*40 \noBreak %107
+    R2.\fermata \bar "||"
+    \tempoEtResurrexit c4\f r r \noBreak
+    R2. %110
+    c8 \tuplet 3/2 8 { c16 c c } c8 c c c
+    c4 r r
+    c8 \tuplet 3/2 8 { c16 c c } c8 c c c
+    c4 r r
+    c r r %115
+    R2.
+    g8 \tuplet 3/2 8 { g16 g g } g8 g g g
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g %120
+    g4 r r
+    c8 \tuplet 3/2 8 { c16 c c } c8 c c c
+    g4 r r
+    R2.
+    c8[\ff r16 c32 c] c8[ r16 c32 c] c8[ r16 c32 c] %125
+    c4 r r
+    c8[ r16 c32 c] c8[ r16 c32 c] c8[ r16 c32 c]
+    c4 r c8[ r16 c32 c]
+    c4 r r
+    r g g %130
+    c r8 \tuplet 3/2 8 { c16 c c } c8 c
+    c4 r8 \tuplet 3/2 8 { c16 c c } c8 c
+    c4 r8 \tuplet 3/2 8 { c16 c c } c8 c
+    c4 r r
+    R2.*32 %166
+    r4 g\fE g
+    c r r
+    R2.*18 %186
+    c2.\trill
+    g4 r r
+    R2.*16 %204
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g %205
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    c4 r r
+    R2.*8 %216
+    r4 g\f g
+    g r r
+    r g g
+    g r r %220
+    R2.*4
+    r4 c c %225
+    c r r
+    R2.*3
+    g4 r r %230
+    c8 c16 c c8 c c c
+    g4 r r
+    R2.
+    g4 r r
+    R2.*14 %248
+    g4\f r r
+    R2. %250
+    g4 r r
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    g4 r r
+    g4 r8 \tuplet 3/2 8 { g16 g g } g8 g
+    g4 g g %255
+    g r r\fermata \bar "|." %256 finis
+  }
+}

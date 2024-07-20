@@ -759,3 +759,472 @@ GloriaSopranoLyrics = \lyricmode {
   a --
   men. %387 finis
 }
+
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr c'4\f^\tuttiE a8 b c4 c
+    f2 c
+    d4 b8 c d4 d
+    f2 d4 d
+    c e g e8 b %5
+    a4 c r2
+    f4 e d c!8 c
+    \appoggiatura c h4 a8 g c4 d
+    e f d4. d8
+    c4 r r2 %10
+    g4 e8([ f)] g4 g
+    c4. d8 e2
+    g,4 g g g
+    d'4. e8 f2
+    e f %15
+    g4 f8 e d([ c)] h([ a)]
+    g2. f4
+    e2 r
+    e' r4 f
+    d2 e %20
+    c4 c h a
+    gis2 h
+    c a
+    f' c4 d
+    e2. e4 %25
+    a,2 r
+    c c4 c
+    f2 c
+    d d4 d
+    f4. d8 d2 %30
+    c f
+    a, c4 f,
+    d' c c( b)
+    a2 r
+    c4. d8 es4 d %35
+    c b a g
+    f a c es
+    \appoggiatura es d2 c
+    f d
+    g f4 es %40
+    d2( c4) c
+    b2 r
+    d fis,4 fis
+    g2 r4 g
+    a2. c4 %45
+    b2 r4 d
+    c2 e,!
+    f!4( f') e d
+    c2.( b4)
+    a2 r4 f %50
+    d'1
+    c
+    b
+    a2 r4 a
+    g( a) b c %55
+    d( e) f b,
+    a2( g)
+    f r
+    R1*8 \noBreak %66
+    \clef "treble_8" \mvDl \mvTrr es1\f\fermata^\soloTI
+    \key b \major \time 3/4 \tempoEtIncarnatus
+      r4 d^\dolce \tuplet 3/2 4 { c8([ es g)] } \noBreak
+    b,2 d8([ c)]
+    b4 r r %70
+    f' c a
+    b8. c16 d4 r8 f
+    f4.( a,8) c a
+    \override Script.avoid-slur = #'outside
+      % b8.([ c16)] d4 d16([ es)] e([ f)] % for MIDI
+      \after 8 \turn b8.([ c16)] d4 d16([ es)] e([ f)]
+      \revert Script.avoid-slur
+    g8.([\fz es16)] b8 b es g %75
+    f8. d16 b4 r
+    f'4. a,8 b \turn \appoggiatura f'16 es8
+    d4( c) d8\p d
+    d8.([ \grace f16 es)] d8 d\< d g
+    g8.\fz e16 b4 r8 a %80
+    g16([ b)] d([ g)] f4 e
+    a4.\fz g16([ f)] g([ f)] e d
+    c([ d)] e([ f)] f,4( g8.)\trill g16
+    f4 r r
+    \clef treble \after 4*0 ^\tuttiS R2.*6 %90
+    \mvTr f'!4.\p^\tutti f8 f f
+    as8. g16 f4 r8 g
+    g4.( c8) b! as
+    g4 fis r
+    r8 d g f es! d %95
+    cis4 e r
+    f d r8. f16
+    g8. e16 e4 r8. g16\cresc
+    as4 f r8. as16
+    b4 g r %100
+    des'2.\f
+    e,4 r r
+    r f\p f
+    as f h,
+    c2 c4 %105
+    c r r
+    R2. \noBreak
+    R\fermata \bar "||"
+    \key f \major \tempoEtResurrexit
+      R2. \noBreak
+    \mvTr b'4\f^\tutti b b %110
+    es2 d4
+    b b b
+    g'2 f4
+    b,4. b8 b4
+    d b d %115
+    f d b
+    f' f, r
+    f2 f4
+    a f a
+    c a c %120
+    f2.~
+    f
+    f,4 r r
+    b\ff b b
+    b4. f8 f4 %125
+    d' d d8 d
+    d2 b4
+    f' d b
+    g8([ a)] h([ c)] d([ es)]
+    f2.\fz %130
+    b,!4 r r
+    R2.*22 %153
+    \mvTrr b2.\pp^\tutti
+    a4 r r %155
+    cis2.
+    d4 r r
+    R2.*8 %165
+    r4 \mvTr c\f^\tutti c
+    c4. a8 f4
+    b2 d4
+    c4. b8 a4
+    f'4. e8 d c %170
+    h4 d r
+    r e g
+    g( f) e
+    r d c
+    h c f %175
+    e2( d4)
+    c r r
+    r d d
+    f d h
+    c4. g8 g4 %180
+    r g\p g
+    a( h) c
+    g2( f4)
+    e r c'\f
+    e4. c8 d e %185
+    f4 c c
+    g'4. e8 c b
+    a4 c r
+    r d e
+    cis4. cis8 d4 %190
+    r b! b
+    a( g') f
+    e d( cis8) cis
+    d4 r r
+    R2. %195
+    r4 r a
+    d2 d4
+    d d d
+    d2 d4
+    b r r %200
+    c c c
+    c4. c8 c4
+    c c4. c8
+    a4 r f
+    f'4. f8 f4 %205
+    f f f
+    f2.
+    d4 d\p c
+    c( b) a
+    a( g) f %210
+    e2.\fz
+    f\fz
+    as\fz
+    g4 r r
+    R2. %215
+    r4 a!\f b
+    c( f) f
+    r a,8 g a b
+    c4( f) f
+    r a,\p g %220
+    f2.
+    e4 r a\f
+    f'2.
+    d4 r r
+    g2. %225
+    e4 r r
+    c d e
+    f4. c8 c4
+    g'2 c,4
+    a'2 f4 %230
+    f e d
+    c f, b
+    a2( g4)
+    f r r
+    \after 4*0 ^\soloSA R2. %235
+    << \context Voice = "Soprano" {
+      \voiceOne c'4(\pE f) f
+      f( g,) g
+      b2.
+      a4 \oneVoice r r \voiceOne
+      c( f) f %240
+      f g, g
+      b2.
+      a4 \oneVoice r r
+      \voiceOne c( a) f
+    } \\ { \autoBeamOff
+      f2 f4 %236
+      f2 f4
+      e2.
+      f4 s s
+      f2 f4 %240
+      f f f
+      e2.
+      f4 s s
+      f2 f4
+    } >>
+    << {
+      d'2 b4 %245
+      e\cresc c a
+      f'2 d4
+      g\f e c
+    } {
+      f,2 g4 %245
+      g g a
+      a2 b4
+      b b c
+    } >>
+    << \context Voice = "Soprano" {
+      \mvDl \voiceOne a'8([\ff g)] f([ e)] d([ c)]
+      b2 g4 %250
+      f \oneVoice r r
+    } \\ {
+      c'4 f, f
+      b2 g4 %250
+      f s s
+    } >>
+    f'2.^\tuttiS
+    f,4 r r
+    f'2.
+    f,4 r r %255
+    R2.\fermata \bar "|." %256 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Cre -- do in u -- num
+  De -- um,
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa --
+  cto -- rem coe -- li et %5
+  ter -- rae,
+  vi -- si -- bi -- li -- um
+  o -- mni -- um et in --
+  vi -- si -- bi -- li --
+  um. %10
+  Et in u -- num
+  Do -- mi -- num
+  Je -- sum Chri -- stum,
+  Fi -- li -- um
+  De -- i, %15
+  Fi -- li -- um u -- ni --
+  ge -- ni --
+  tum,
+  et ex
+  Pa -- tre, %20
+  et ex Pa -- tre
+  na -- tum
+  an -- te
+  o -- mni -- a
+  sae -- cu -- %25
+  la.
+  De -- um de
+  De -- o,
+  lu -- men de
+  lu -- mi -- ne, %30
+  De -- um
+  ve -- rum de
+  De -- o ve --
+  ro,
+  ge -- ni -- tum non %35
+  fa -- ctum, con -- sub --
+  stan -- ti -- a -- lem
+  Pa -- tri,
+  per quem
+  o -- mni -- a %40
+  fa -- cta
+  sunt.
+  Qui pro -- pter
+  nos, nos
+  ho -- mi -- %45
+  nes et
+  pro -- pter
+  no -- stram sa --
+  lu --
+  tem de -- %50
+  scen --
+  _
+  _
+  dit de
+  coe -- lis, de %55
+  coe -- lis de --
+  scen --
+  dit.
+
+  Et %67
+  in -- car --
+  na -- tus
+  est, %70
+  et in -- car --
+  na -- tus est de
+  Spi -- ri -- tu
+  San -- cto ex Ma --
+  ri -- a, Ma -- ri -- a %75
+  Vir -- gi -- ne,
+  in -- car -- na -- tus
+  est __ ex Ma --
+  ri -- a, Ma -- ri -- a
+  Vir -- gi -- ne, et %80
+  ho -- mo fa -- ctus
+  est, et ho -- mo, et
+  ho -- mo fa -- ctus
+  est.
+
+  Cru -- ci -- fi -- xus %91
+  e -- ti -- am pro
+  no -- bis, pro
+  no -- bis
+  sub Pon -- ti -- o Pi -- %95
+  la -- to,
+  pas -- sus sub
+  Pon -- ti -- o Pi --
+  la -- to, pro
+  no -- bis %100
+  pas --
+  sus,
+  et pro
+  no -- bis se --
+  pul -- tus %105
+  est.
+
+  Et re -- sur -- %110
+  re -- xit,
+  et re -- sur --
+  re -- xit
+  ter -- ti -- a
+  di -- e se -- %115
+  cun -- dum Scri --
+  ptu -- ras,
+  et a --
+  scen -- dit, a --
+  scen -- dit in %120
+  coe --
+
+  lum,
+  se -- det ad
+  dex -- te -- ram, %125
+  ad dex -- te -- ram
+  Pa -- tris,
+  se -- det ad
+  dex -- te -- ram
+  Pa -- %130
+  tris.
+
+  Cre -- %154
+  do, %155
+  cre --
+  do.
+
+  Et in %166
+  Spi -- ri -- tum
+  San -- ctum,
+  Do -- mi -- num
+  et vi -- vi -- fi -- %170
+  can -- tem,
+  qui ex
+  Pa -- tre
+  Fi -- li --
+  o -- que pro -- %175
+  ce --
+  dit.
+  Qui cum
+  Pa -- tre et
+  Fi -- li -- o %180
+  si -- mul
+  ad -- o --
+  ra --
+  tur et
+  con -- glo -- ri -- fi -- %185
+  ca -- tur, et
+  con -- glo -- ri -- fi --
+  ca -- tur:
+  qui lo --
+  cu -- tus est, %190
+  per Pro --
+  phe -- tas
+  lo -- cu -- tus
+  est.
+  %195
+  Et
+  u -- nam
+  san -- ctam ca --
+  tho -- li --
+  cam %200
+  et a -- po --
+  sto -- li -- cam
+  Ec -- cle -- si --
+  am. Con --
+  fi -- te -- or %205
+  u -- num ba --
+  ptis --
+  ma in re --
+  mis -- si --
+  o -- nem %210
+  pec --
+  ca --
+  to --
+  rum.
+  %215
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti --
+  o -- nem
+  mor -- tu -- %220
+  o --
+  rum, et
+  vi --
+  tam,
+  vi -- %225
+  tam
+  ven -- tu -- ri
+  sae -- cu -- li,
+  vi -- tam,
+  vi -- tam %230
+  ven -- tu -- ri
+  sae -- cu -- li,
+  a --
+  men,
+  %235
+  et __ ex --
+  pe -- cto
+  vi --
+  tam,
+  vi -- tam, %240
+  vi -- tam ex --
+  pe --
+  cto,
+  et __ ex --
+  pe -- cto %245
+  vi -- tam, ex --
+  pe -- cto
+  ven -- tu -- ri
+  sae -- cu -- li,
+  a -- _ %250
+  men,
+  a --
+  men,
+  a --
+  men. %255 finis
+}

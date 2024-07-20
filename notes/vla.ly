@@ -451,3 +451,252 @@ GloriaViola = {
     q r r\fermata \bar "|." %389 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoCredo
+    f,8\f f' a f c f a, c
+    f, a c f a c a f
+    f, f' b f d f b, d
+    f, b d f b d b f
+    e g b g e g c, e %5
+    f f, f' g a g f e
+    d d, e e' f f, fis fis'
+    g g, g' f e g d g
+    c, g' a, a' g f g g,
+    c g' e c f d g g, %10
+    c c' e c g c e, g
+    c, c' g e c g' e c
+    h d' h g d h' g d
+    h g' d h g h d g
+    c, e g c a c a f %15
+    e g c g e g c, e
+    d d' cis d g,, h d g
+    c, c' h c g c e, g
+    c, c' e c a, a' c a
+    h, h' d h gis, gis' h gis %20
+    a, a' c a d, d' f f,
+    e e' h gis e h' gis e
+    a a, a' h c a h c
+    d a f d c c' d, d'
+    e c a c e d e e, %25
+    a a c a e a c, e
+    a, c e a g,! c e g
+    f, a c f a c a f
+    f, f' b f d f b, d
+    f, b d f b d b f %30
+    f, f' a f c f a, c
+    f, a c f a c a f
+    b, b' c c, d d' e e,
+    f a c a f c a c
+    f, a c f a, f' b, f' %35
+    es f d f c f b, f'
+    a, c f c a c a f
+    b c d es f g f es
+    d f b d b f d b
+    es, g b es f, f' g, g' %40
+    f, f' d b f' es? f f,
+    b b' d b f b d, f
+    b, d f b a, c fis a
+    g, b d g b d b g
+    fis a c a fis a fis d %45
+    g b d c b a g f
+    e! c e g c d c b
+    a b c a f g a f
+    g a b g c, d e c
+    f e f g a f g a %50
+    b c d b g a b g
+    e f g e f g a f
+    d e f d e f g e
+    cis d e cis d e f d
+    b f' c f d f a, f' %55
+    b, f' g, g' a, a' b g
+    c a f a c b c c,
+    f f, a c f a c a,
+    b b' f d b d b g
+    c e g e c e c a %60
+    d d' a f d f d b
+    e g b g e g e c
+    f f' c a f c a f
+    g a b h c d e c
+    f c d a b g c c, %65
+    f f' c a f a c f \noBreak
+    a2 r\fermata
+    \key b \major \time 3/4 \tempoEtIncarnatus
+      \after 4*0 ^\conSord R2.*16 %83
+    r16 f8(\p es! des c b as16)
+    r g8( as b \hA as g f16) %85
+    r e8( f g as g c16)
+    r f,8( g as c b as16)
+    r d,8( f d h' c d16)
+    r es8( d c b as g16)
+    r fis8( a c a fis a16) %90
+    d,4 g r
+    f!4. as8( d, d')
+    g,4. g'8( f es)
+    a,!4. a8( b fis)
+    g4. c8( b a) %95
+    g4. g'8( e a)
+    a,4 d,8 d'( cis d)
+    g,4 e8 e'(\cresc dis e)
+    c4 f,8 f'( e f)
+    des4. c8( b as) %100
+    g16\f g'8 e b' g e des16
+    b4 r r
+    as\p r r
+    f r r
+    r f e %105
+    f2 e4\sfp
+    f2 e4\sfp \noBreak
+    f2.\fermata \bar "||"
+    \key f \major \tempoEtResurrexit
+      b8_[\f^\senzaSord r16 b32( c] d8[) r16 d32( es] f8[) r16 \tuplet 3/2 16 { f32( g a]) } \noBreak
+    b4 r r %110
+    r <b es,> <b d,>
+    <b f b,> r r
+    r <es g, b,> <d f, b,>
+    <b f b,> r b,16 b b b
+    d4:16 b: d: %115
+    f: d: b:
+    f'4 f, r
+    c'8 c4 c c8
+    c c4 c c8
+    f f4 f f8 %120
+    a a4 a a8
+    b4 <f b,> <b d,>
+    <a c,> f16 g f es d \hA es d c
+    b4 r r
+    b8_[\ff r16 b32( c] d8[) r16 d32( es] f8[) r16 \tuplet 3/2 16 { f32( g a]) } %125
+    b4 r r
+    b,8_[ r16 b32( c] d8[) r16 d32( es] f8[) r16 \tuplet 3/2 16 { f32( g a]) }
+    b4 r <f b,>
+    <g b,> r r
+    r <f d> <c es>
+    <b d> r8 \tuplet 3/2 8 { b16 d f } b8 b
+    b4 r8 \tuplet 3/2 8 { b,16 d f } b8 b
+    b4 r8 \tuplet 3/2 8 { b,16 d f } b8 b
+    b4 b, r
+    g8[\p r16 g] a8[ r16 a] b8[ r16 b] %135
+    c4 r r
+    a8[ r16 a] b8[ r16 b] c8[ r16 c]
+    d4 r r
+    h8[ r16 \hA h] c8[ r16 c] d8[ r16 d]
+    g,8[ r16 g] g8[\cresc r16 g] g8[ r16 g] %140
+    g'8[ r16 g] g8[ r16 g] g8[ r16 g]
+    fis8.\f \tuplet 3/2 16 { d32 fis a } d8.[ d16 b8. g16]
+    d'8.\f \tuplet 3/2 16 { d,32 fis a } d8.[ d16 b8. g16]
+    d'4 d, r8. <es es'>16
+    q2\fz r4 %145
+    r8. c16\p c4 c
+    b r r
+    d r r
+    <f! a>-!\f <f b>-! r
+    R2.*2 %151
+    g,2.\p
+    a16\pp a a a r8 a r a
+    cis16 cis cis cis r8 \hA cis r \hA cis
+    d16 d d d r8 d r d %155
+    e!16 e e e r8 e r e
+    fis16 fis fis fis r8 \hA fis r \hA fis
+    d8[ r16 d] d8[ r16 d] d8[ r16 d]
+    d8[ r16 d] c8[ r16 c] b8[ r16 b]
+    <g g'>4 r8. a'16\f a8[ r16 a] %160
+    b4-! d-! r
+    r <b d,> <c d,>
+    <b d, g,> r8 \tuplet 3/2 8 { g16 d b } g8 g
+    a4 r8 \tuplet 3/2 8 { a'16 f! c } a8 a
+    b4 r8 \tuplet 3/2 8 { b'16 g d } b8 b %165
+    c4 r8 \tuplet 3/2 8 { c'16 g e } c8 c
+    f, f'16 e f8 f, f f'
+    d, d'16 cis d8 d, d d'
+    e, e'16 d e8 e, f f'
+    d, d'16 cis d8 e f fis %170
+    g, g'16 fis g8 h d f,
+    e c'16 h c8 c, h h'
+    a, a' h, h' c, c'
+    f,, f'16 e f8 f, fis fis'
+    g, g' e c a a' %175
+    g, g'16 fis g8 g, g g'
+    c,4 r8 \tuplet 3/2 8 { c16 g e } c8 c
+    f4 r8 \tuplet 3/2 8 { f'16 d a } f8 f
+    g4 r8 \tuplet 3/2 8 { g'16 d h } g8 g
+    c4 r8 \tuplet 3/2 8 { c16 g e } c8 c %180
+    c4 r r
+    r a'\p a
+    h( c d)
+    g,8\f c16 h c8 e g e
+    b b'16 a b8 g e b %185
+    a a'16 g a8 f c a
+    e e'16 d e8 g e c
+    f, f'16 e f8 c a f
+    b b'16 a b8 b, g g'
+    a, a'16 g a8 a, f f' %190
+    g, g'16 f g8 f e d
+    cis cis'16 h cis8 cis, d d'
+    g, e a g a a,
+    d4 r8 \tuplet 3/2 8 { d'16 a f } d8 d
+    g4 r8 \tuplet 3/2 8 { g16 e b } g8 g %195
+    a4 r8 \tuplet 3/2 8 { a'16 e cis } a8 a
+    fis' g a d, e fis
+    g b d b a g
+    fis g a d, e fis
+    g b d b g f %200
+    e f g c, d e
+    f a c a g f
+    e f g c, d e
+    f a c a f c
+    a b c f, g a %205
+    b d f d c b
+    a b c f, g a
+    b4 b(\p a)
+    g( g' c,)
+    b( d a) %210
+    r8 g4\sfp g8 g g
+    r as4\sfp as8 as as
+    r f'4\sfp f8 f f
+    e4 r e,16\f f g a
+    g a b! c b c d e d e f g %215
+    a4 r r
+    r <f a,> q
+    q f, r
+    r <a f'> q
+    q f r %220
+    r a\p a
+    a8\f a'16 gis a8 e cis a
+    d d'16 cis d8 a f d
+    b b'16 a b8 f d b
+    e e'16 d e8 b! g e %225
+    c c'16 h c8 g e g
+    c, c' h, h' b ,b'
+    a, a'16 g a8 f c a
+    e e'16 d e8 g e c
+    f, f'16 e f8 c a f %230
+    b b'16 a b8 b, d b
+    f f'16 e d8 d' b g
+    c, c'16 b c8 c, c c'
+    f,-!\f a-! g-! f-! e-! d-!
+    c-! f-! e-! d-! c-! b-! %235
+    a4 c\pp c
+    r b b
+    r g g
+    a( b f)
+    r c' c %240
+    r b b
+    r g g
+    a( b f)
+    r f'2~
+    f4( d b) %245
+    g'(\cresc e c)
+    a'( f d)
+    b'8\f b, g' g, e' e,
+    a\ff a' b, b' c, c'
+    d, d' b g e g %250
+    f4 r r
+    r <f a> <f c'>
+    <f a,> r r
+    r <f a> <f c'>
+    <f a,> q q %255
+    q r r\fermata \bar "|." %256 finis
+  }
+}

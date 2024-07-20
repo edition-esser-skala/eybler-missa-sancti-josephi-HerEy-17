@@ -22,6 +22,10 @@ soloS = \markup \remark "S solo"
 soloT = \markup \remark "T solo"
 soloSA = \markup { \override #'(baseline-skip . 2) \remark \left-column { "S & A" "solo" } }
 soloTB = \markup { \override #'(baseline-skip . 2) \remark \left-column { "T & B" "solo" } }
+soloTI = \markup \remark "T 1 solo"
+soloTII = \markup \remark "T 2 solo"
+soloBI = \markup \remark "B 1 solo"
+soloBII = \markup \remark "B 2 solo"
 tuttiS = \markup \remark "S tutti"
 tuttiA = \markup \remark "A tutti"
 tuttiT = \markup \remark "T tutti"
@@ -32,6 +36,11 @@ tuttiTB = \markup { \override #'(baseline-skip . 2) \remark \left-column { "T & 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro moderato"
+  % tempoEtIncarnatus = \tempoMarkup "Adagio"
+  % tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempo 4 = 55
+  tempoEtResurrexit = \tempo 4 = 120
 
 
 \include "notes/ob1.ly"
