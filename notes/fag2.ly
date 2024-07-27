@@ -491,3 +491,165 @@ CredoFagottoII = {
     f r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusFagottoII = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoSanctus
+    r2 r8 c\p c c
+    c4 r r8 f\cresc f f
+    b4\! r r2
+    r r8 c,\p c c
+    c c4 c8 r e4\cresc e8 \noBreak %5
+    r c4\f c8 c'4 r
+    \time 3/4 \tempoPleni
+      es,2. \noBreak
+    d
+    f
+    e! %10
+    b'
+    a
+    e
+    r4 f f
+    es d a %15
+    b8 d' c b a g
+    f4 c' c,
+    f r8 f, g a
+    b c d a b c
+    d e f c d e %20
+    f g a e f g
+    a4 r r
+    b r r
+    c r r
+    f, r r %25
+    f c a
+    f a c
+    f r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusFagottoII = {
+  \relative c {
+    \clef bass
+    \key b \major \time 6/4 \tempoBenedictus
+    r2 r4 r r b'\pE
+    c2 b4 a r r
+    r2 r4 r r g
+    b2 a4 b d, f
+    b, r r r2 r4 %5
+    R1.*10 %15
+    r2 r4 r b\pp b
+    b2 r4 r2 d4
+    f2 b4 f r r
+    r2 r4 r2 e4
+    f2 f,4 b r r %20
+    r es es d b r
+    r es es d b r
+    b2\fz r4 c2\fz r4
+    d\sfp es g b( a) r
+    r b, g' f es! d %25
+    a a' b f r d
+    g b c, f d g
+    f2 f,4 r b\f b
+    g'2 f4 as2 g4
+    es,2.~ es %30
+    b4 b' b b r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusFagottoII = {
+  \relative c {
+    \clef bass
+    \key des \major \time 4/4 \tempoAgnus
+    R1*4
+    \key a \minor R1*5
+    \key des \major R1*13 \noBreak %22
+    R1\fermata \bar "||"
+    \key f \major \time 3/4 \tempoDona
+      R2.*10 %33
+    a'2.\f
+    b4 r r %35
+    R2.*8 %43
+    a2\f d,4
+    g2 c,4 %45
+    f2 fis4
+    g r \clef "treble_8" h
+    c4. h8 c d
+    h4 r h
+    c4. h8 c d %50
+    h4 h h
+    \clef bass e,4. e8 f g
+    a4. g8 f e
+    d4. d8 e f
+    g4. f'8 e d %55
+    c h a g f e
+    d4 g c,
+    f g g,
+    c r r
+    h2\fz c4 %60
+    f g g,
+    c r r
+    h2\fz c4
+    f g g,
+    c r r %65
+    R2.*6 %71
+    r4 c\f c
+    c2\fermata r4\fermata
+    R2.*10 %83
+    a'2.\f
+    b4 r r %85
+    R2.*8 %93
+    b,2\f a4
+    d g, c %95
+    f, d' b
+    c r c
+    f4. e8 f g
+    c,4 r g'
+    a4. g8 a b %100
+    g4 c,4. b8
+    a4. f8 g a
+    b4. g8 a b
+    c4. a8 b c
+    d4. b8 c d %105
+    e4. c8 d e
+    f e d c b a
+    g4 c f,
+    b c2
+    f,4 r r %110
+    c'2\fz f4
+    b, c c
+    f r r
+    c2\fz f4
+    b c c, %115
+    f r r
+    R2.
+    r8 h( d\> c\! a f)
+    e( h' d\> c\! b g)
+    f4 r r %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}
+
+AgnusLongFagottoII = {
+  \relative c {
+    \clef bass
+    \key des \major \time 4/4 \tempoAgnusLong
+    R1*4
+    \key a \minor R1*4 %8
+    r2 r8 ges'4(\pE b8)
+    \key des \major b( ces) r4 r8 f,4( as8) %10
+    a( b) r4 r8 es,4( ges8)
+    b( as) r as4 f as8
+    ges r r4 r2
+    R1*7 %20
+    \clef "treble_8" r2 r8 as4(\pE c8)
+    c( des) r4 r8 g,4( b8)
+    h( c) r4 r8 f,4( as8)
+    c( b) r b4 g b8
+    as r r4 r2 %25
+    R1*5 %30
+    \clef bass r8 c,\p c c c4 r
+    r8 c\f c c c4 r
+    R1\fermata \bar "||" %33 finis
+  }
+}

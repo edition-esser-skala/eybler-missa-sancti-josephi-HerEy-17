@@ -675,3 +675,246 @@ CredoViolinoI = {
     q r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoSanctus
+    f8\p f'16( c) c( a) a( f) e8 c16( e) e( g) g( b)
+    b8\cresc b'16( g) g( e) e( b) a8 f16( a) a( c) c( f)
+    f8\f f,16( b) b( d) d( f) f8 f,16( a) a( c) c( f)
+    g8 c,,16( b') b(\decresc c,) a'( c,) g'8 c,16(\p e) e( g) g( c)
+    c8 e,16( g) g( c) c( e) e8\cresc g,16( c) c( e) e( g) \noBreak %5
+    g8\f b,16( e) e( g) g( b) b(\decresc g e c) b(\p g e b)
+    \time 3/4 \tempoPleni
+      a16\f a f' f a a c c f f a, a \noBreak
+    b b d d f, f b b d, d f f
+    h, h g' g h h d d g g h, h
+    c c e e g, g c c e, e g g %10
+    c, c e e g g c c e e g g
+    c,, c f f a a c c f f a a
+    c,, c g' g c c e e g g b b
+    a a c c f, f a a c, c f f
+    a, a f' f b, b f' f c c f f %15
+    d d f f e e d d c c b b
+    a a c c f f a a c c e, e
+    f f f, f g g a a b b c c
+    d d a a b b c c d d e e
+    f f c c d d e e f f g g %20
+    a a e e f f g g a a b b
+    c4 r r
+    <d d, d,> r r
+    <e, b g> r r
+    f16 f a a c, c f f a, a c c %25
+    f, f a a c, c f f a, a c c
+    f4 <a f'> q
+    q r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/4 \tempoBenedictus
+    f2\p \stemUp b4 b( a b) \stemNeutral
+    \appoggiatura { c16[ d] } es2 d4\trill c r d(\fp
+    b g) c(\fp a b es!)\fp
+    d2 c4\trill b r r
+    r f-\pizz b r a b %5
+    r es d r c d
+    r b c a b c
+    r d\pp^\arco c r8 b4 f d8~
+    d f4 b e,8 f c4 f b,8
+    a f'4 es'! d8 c a,4 a' d8 %10
+    b g,4 g' c8 a f4 b c8
+    d f4 b,8( a c) b( d f, b d, f)
+    r f r f r b r b r a r b
+    r c r c r d r c r f, r d'
+    r b r g r c r a r b r c %15
+    r d r f r a, r b b8.\trill a32 b d8( b)
+    r f f8.\trill e32 f b8( c,) r f f8.\trill e32 f b8( d)
+    r c c8.\trill b32 c es!8( d) r c c8.\trill b32 c d8( a)
+    r b b8.\trill a32 b c8( g) r a b8.\trill a32 b c8( g')
+    r f f8.\trill e32 f a,8( c) b( b, d f b d) %20
+    f( a, c a f a) b( b, d f b d)
+    f( a, c a f a) b( b, d b f' d)
+    b'( f d f b d) es(\cresc c a f es' c)
+    f(\f b4 g8 es\p c) \tuplet 3/2 4 { b c b a[ b h] c a es
+    d f e f[ g a] b d c b a b c[ a f] b c d %25
+    es c a f[ c' es] d b d c a c f,[ a c] d fis, d'
+    b d b g[ b g] c e, c' a c a f[ b d] es, b' es
+    d f b f[ d b] es c a b f d b[ d f] b\f c d
+    es b g b[ g es] d' b f f' d b d[ b f] es' b g
+    g' es b es[ b g] g' es b b' g es g[ es b] b' g es %30
+    f d b b'[ f d] b f d } b4 r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key des \major \time 4/4 \tempoAgnus
+    f8.(\pE^\conSord ges32 f es8 des) c4 r
+    b'8.^[( c32 b] as8 ges) f-\dolce f'4( es16 des)
+    c( b a b) es( des c b) as8 des,16( f) f( as) as( des)
+    des( f es des) c( b as g) g( as) as8(-. as-. as-.)
+    \key a \minor gis gis gis gis a\f a a a %5
+    gis\decresc gis gis gis fis\pp fis fis fis
+    g g g g fis fis fis fis
+    h h ais ais dis\f dis cis cis
+    cis\p cis cis h b8.( ces32 b) as8 ges
+    \key des \major f4 r es'8.( f32 es des8 ces) %10
+    b-\dolce b'4( as16 ges) f( es d es) as( ges f es)
+    des8 ges,16( b) b( es ges b) b( as) as( ges) ges( f) f( es)
+    d8 f,(-. f-. f-.) g g g g
+    as\f as as as g\decresc g g g
+    f\pp f f f ges ges ges ges %15
+    f f f f g\cresc g as as
+    b\f b c c b\p b b b
+    c8.( des32 c b8_[ as]) g4 r
+    f'8.( g32 f es8 des) c-\dolce \once \slurDashed c'4( b16 as)
+    g( f e f) b( as g f) es8 as~ as16 e( f des) %20
+    c( b b' g) b( g e b) c( b) as8~ as16 f( as c)
+    f( as) as8~ as16 f( as h,) r c( h c) des!(-> c as f) \noBreak
+    e(\cresc g, c e) g( c e g) b!8.\f b,16 b4\fermata \bar "||"
+    \key f \major \time 3/4 \tempoDona \newSpacingSection
+      a4(\p^\senzaSord f' e)~ \noBreak
+    e( d c)~ %25
+    c( b a)
+    a(\trill g) r
+    r8 c c8.\trill h32 c a'8 c,
+    h4 r r
+    r8 b b8._[\trill a32 b] g'8 b, %30
+    a4 r r
+    f8[\sfp a a a] a8.\trill g32 a
+    f8[\sfp b b b] b8.\trill a32 b
+    f8[\f es' es es] es8.\trill d32 es
+    d8 b\trill d b f d %35
+    b4 r r
+    r b'\p b
+    a( c e,)
+    f8 c'( h c d c)
+    b\trill a b\trill a b c %40
+    a f'(\cresc e f a g)
+    f\trill e f\trill e f g
+    e h( c d e f)
+    g16\f g e e cis cis a a fis' fis d d
+    h h d d g, g f' f e e c c %45
+    a a e' e f, f d' d e, e c' c
+    h h g g h h d d g g h, h
+    c c h h c c d d e e f f
+    d d g, g h h d d g g h, h
+    c c h h c c d d e e f f %50
+    d d g, g h h g g h h d d
+    g g f f e e d d c c h h
+    a a a' a a, a cis cis d d e e
+    f f e e d d c c h h a a
+    g g g' g g, g h h c c d d %55
+    e e d d f f e e a a g g
+    fis fis c c h h f' f e e c c
+    a a f' f e e g g h, h d d
+    c4 r r
+    g16\fz g h h d d g g e e c c %60
+    a a f f e e c' c d, d h' h
+    c4 r r
+    g16\fz g h h d d g g e e c' c
+    a a f f e e g g h, h d d
+    c8(\p fis a\> g\! e c) %65
+    h( fis' a\> g\! f d)
+    c( fis a\> g\! e c)
+    h( fis' a\> g\! f d)
+    c c,16\f e d f e g f a g b
+    a8 e16 g f a g b a c h d %70
+    c h c d e d e f g fis g a
+    b!8( g e c b g)
+    e2\fermata r4\fermata
+    r8 a(\p c f) r e
+    r f,( b d) r c %75
+    r d,( g b) r a
+    a4\trill g r
+    r8 c c8.\trill h32 c a'8 c,
+    h4 r r
+    r8 b b8._[\trill a32 b] g'8 b, %80
+    a4 r r
+    f8[ a a a] a8.\trill g32 a
+    b8[\cresc f f f] f8.\trill e32 f
+    es8[\f es' es es] es8.\trill d32 es
+    d8 b\trill d b f d %85
+    b4 r r
+    r b'\p b
+    a( c e,)
+    f8 c'( h c d c)
+    b\trill a b\trill a b c %90
+    a f'( e f g f)
+    es\trill\cresc d \hA es\trill d \hA es f
+    d f( g a b c)
+    d16\f d b b f f d d e! e cis' cis
+    d, d c' c h h f! f e e b' b %95
+    a a e e f f a a d, d b' b
+    g g c, c e e g g c c e, e
+    f f e e f f g g a a b b
+    g g c, c e e g g c c e, e
+    f f e e f f g g a a b b %100
+    g g c c g g e e c c e e
+    f4 f, r
+    d'16 d c c b b a a g g f f
+    e e e' e e, e c' c d d e e
+    f f e e d d c c b b a a %105
+    g g g' g g, g e' e f f g g
+    a a g g b b a a d d c c
+    h h f f e e b' b a a f f
+    d d b b a a f' f g, g e' e
+    f4 r r %110
+    g,16\fz g e' e g g b b a a f f
+    d d b b a a f' f g, g e' e
+    f4 r r
+    e16\fz e g g c, c b' b a a f f
+    d d b' b a a c c e, e g g %115
+    f8( h\p d\> c\! a f)
+    e( h' d\> c\! b g)
+    f( h, d\> c\! a f)
+    e( h' d\> c\! b g)
+    f4 f f %120
+    f r r\fermata \bar "|." %1212 finis
+  }
+}
+
+AgnusLongViolinoI = {
+  \relative c' {
+    \clef treble
+    \key des \major \time 4/4 \tempoAgnusLong
+    f8.(\pE^\conSord ges32 f es8 des) c4 r
+    b'8.^[( c32 b] as8 ges) f f'4( es16 des)
+    c( b a b) es( des c b) as8 des,16( f) f( as) as( des)
+    des( f es des) c( b as g) g( as) as8(-. as-. as-.)
+    \key a \minor gis gis gis gis a\f a a a %5
+    gis\decresc gis gis gis fis\pp fis fis fis
+    g g g g fis fis fis fis
+    h h ais ais dis\f dis cis cis
+    cis\p cis cis h ais ais4( h16 cis)
+    \key des \major d8( dis) r4 r8 as!4( b16 ces) %10
+    c8( des) r4 r8 ges,!4( as16 b)
+    des8( ces) r ces~ ces16 b( as ges) f( es' des ces)
+    b8.( ces32 b) as8 ges f4 r
+    es'8.( f32 es des8 ces) b b'4( as16 ges)
+    f( es d es) as( ges f es) des8 ges,16( b) b( es ges b) %15
+    b( as) as( ges) ges( f) f( es) d8 f,(-. f-. f-.)
+    g g g g as\f as as as
+    g\decresc g g g f\pp f f f
+    ges ges ges ges f f f f
+    g\cresc g as as b\f b c c %20
+    b\p b b b as c4( des16 es)
+    e8( f) r4 r8 b,4( c16 des)
+    d8( es) r4 r8 as,4( b16 c)
+    es8( des) r des~ des16 c( b as) g( f' es des)
+    c8.( des32 c b8_[ as]) g4 r %25
+    f'8.( g32 f es8 des) c c'4( b16 as)
+    g( f e f) b( as g f) es8 as~ as16 e( f des)
+    c( b b' g) b( g e b) c( b) as8~ as16 f( as c)
+    f( as) as8~ as16 f( as h,) r c( h c) des!(-> c as f)
+    e( c h c) des!( c f as) g( c des c) b( as g f) %30
+    e( c h c) h( c e g) b4 r
+    r16 c,(\f e g) b( c e g) b4 r^\senzaSord
+    r8. b,16\f b8 b b4\fermata r\fermata \bar "||" %33 finis
+  }
+}

@@ -343,3 +343,96 @@ CredoCornoI = {
     c r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r2 r8 d'\p d d
+    d4 r r8 c\cresc c c
+    c1\f
+    r8 d4\decresc e8 d g,\p g g
+    g g4 g8 r g4\cresc g8 \noBreak %5
+    r d'4\f d8 d4 r
+    \time 3/4 \tempoPleni
+      c2.\f \noBreak
+    c
+    d
+    d %10
+    d
+    e
+    d
+    e4 r r
+    r c c %15
+    c r r
+    e2 d4
+    c r r
+    c r r
+    c r r %20
+    c r r
+    c r r
+    c r r
+    g r r
+    c r r %25
+    c \pao g e'
+    c c c
+    c r r\fermata \bar "|." %28 finis
+  }
+}
+
+AgnusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*22 \noBreak %22
+    R1\fermata \bar "||"
+    \time 3/4 \tempoDona
+      R2.*10 %33
+    c'2.~\f
+    c4 r r %35
+    R2.*12 %47
+    r4 d\fE d
+    d r r
+    r d d %50
+    d r r
+    R2.*4 %55
+    g,2.~
+    g4 r r
+    R2.
+    r4 d' d
+    \pao d2\fz d4 %60
+    R2.
+    r4 d8 d d d
+    \pao d2\fz d4
+    e \pa d d \pd
+    d r r %65
+    R2.*3
+    g,4\f r r
+    g r r %70
+    g2.~
+    g4 d' d
+    d2\fermata r4\fermata
+    R2.*10 %83
+    c2.~\f
+    c4 r r %85
+    R2.*12 %97
+    r4 g\fE g
+    g r r
+    r g g %100
+    g r r
+    c r r
+    R2.*4 %106
+    c2.
+    c4 d e
+    f e d
+    c c c %110
+    d2\fz e4
+    f e d
+    c c8 c c c
+    d2\fz e4
+    f e d %115
+    c r r
+    R2.*4 %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}

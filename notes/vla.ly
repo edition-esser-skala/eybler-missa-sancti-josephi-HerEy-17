@@ -700,3 +700,257 @@ CredoViola = {
     q r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoSanctus
+    f,8\p c' a f g4 r
+    e8\cresc g c e f4 r
+    d8\f b f d c' a f c~
+    c \after 8 \decresc c'4 c8 c4\! r
+    r2 r8 c16(\cresc e) e( g) g( c) \noBreak %5
+    c8\f e,16( g) \slurDashed g( b) b( g) \slurSolid e4 r
+    \time 3/4 \tempoPleni
+      es,8\f es' es es es es \noBreak
+    d d' f, b d, f
+    f, f' f f f f
+    e! e' g, c e, g %10
+    b, b' b b b b
+    a, a' a a a a
+    e, e' e e e e
+    f, f' f f f f
+    c c d d es es %15
+    d d f f b, b
+    c f a c b g
+    f4 r8 f, g a
+    b c d a b c
+    d e f c d e %20
+    f g a e f g
+    a4 r r
+    <b f b,> r r
+    <e, g, c,> r r
+    <f a,> r r %25
+    f8 a c, f a, c
+    f,4 a c
+    f r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 6/4 \tempoBenedictus
+    r4 b\p b c2 d4
+    r f f f r d~\fp
+    d g c,~\fp c f es!\fp
+    f2 es4\trill d r r
+    r b-\pizz b r c d %5
+    r f f r f fis
+    r d e f f e
+    r f-!\pp^\arco es-! d-! b b
+    b d b f f' f
+    f, c' b a c fis, %10
+    g b e f d e
+    f d es d b b
+    r8 b r b r b r c r c r d
+    r a r a r b r a r a r a
+    r g r b r g r f! r f' r b %15
+    r b r b, r c b4 r r
+    r b b r a( b)
+    r a( b) r a a
+    r b( g) r b b
+    r b( c) r b b %20
+    a r r r b b
+    a r r r f( b)
+    d r d(\cresc a) r es'
+    f\f es r r f,\p f
+    f d' b c2 f,4~ %25
+    f f' f f r a
+    d, r g c, d es
+    f2 f4 f d\f f
+    es g b d, f b
+    g es b g es g %30
+    b <d b'> q q r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key des \major \time 4/4 \tempoAgnus
+    f,8\pE^\conSord f f f ges ges ges ges
+    es es es es f f f f
+    ges ges ges ges f f f f
+    f f g b b16( as) c8(-. c^[-. c]-.)
+    \key a \minor h! h h h cis\f cis cis cis %5
+    h\decresc h h h h\pp h h h
+    cis cis cis cis fis, h h h
+    dis dis dis dis fis\f fis fis fis
+    fis\p fis f f ges b, b b
+    \key des \major ces ces ces ces as as as as %10
+    b b b b ces ces ces ces
+    b b b b ces ces16( es) es( f) f( ges!)
+    f8 b,(-. b-. b-.) b b b b
+    c!\f c c c b\decresc b b b
+    b\pp b b b c! c c c %15
+    f, b b b b\cresc b c c
+    << {
+      es es es es es es es es
+      es c c c
+    } \\ {
+      des!\f des c es es\p es es des
+      c c c c
+    } >> des des des des
+    b b b b c c c c
+    des des des des c c as as %20
+    des des e, c' c c c c
+    f f f f g g, as as \noBreak
+    g16(\cresc c, e g) c( e g c) e8.\f e,16 e4\fermata \bar "||"
+    \key f \major \time 3/4 \tempoDona \newSpacingSection
+      r4^\senzaSord f\p f \noBreak
+    r f e %25
+    f( g) a8( f)
+    c2 r4
+    fis8 fis a a fis fis
+    g g d d h h
+    e e g g e e %30
+    f! f c c a a
+    c\sfp c c c c c
+    d\sfp d d d d d
+    f\f f f f f f
+    f b\trill d b f d %35
+    b4 r r
+    r \once \slurDashed b(\p d)
+    c( a b)
+    a r r
+    <g e'>-\pizz q q %40
+    <a f'> r r
+    <h d> <d h'> q
+    <e c'> r r
+    a,8\f^\arco a' a a a a
+    g g g g g g %45
+    f f a a a a
+    g g, g' g g g
+    g4 g, r
+    r8 g g' g g g
+    g4 g, r %50
+    r8 g g' g g g
+    g g, g' f e d
+    c c' c, e f g
+    a g f e d c
+    h d' h g a h %55
+    c g a e f g
+    a a g g g g
+    f a g f g g,
+    c4 r r
+    d8\fz g g g g e %60
+    f a g f g g,
+    c4 r r
+    d8\fz g h d c g
+    a a g g g, g
+    c4 r r %65
+    r <h d>\p q
+    r <c e> q
+    r <h d> q
+    c8 c,\f d e f g
+    a e f g a h %70
+    c e g, c e, g
+    c,4 <g' b!> <g b>
+    q2\fermata r4\fermata
+    r4 f'\p f
+    r f c %75
+    r c c
+    c2 r4
+    fis8 fis a a fis fis
+    g g d d h h
+    e e g g e e %80
+    f! f c c a a
+    c c c c c c
+    b\cresc b a a b b
+    f'\f f f f f f
+    f b\trill d b f d %85
+    b4 r r
+    r b(\p d)
+    c( a b)
+    a r r
+    <g e'>-\pizz q q %90
+    <a f'> r r
+    <c a'>\cresc q q
+    <d b'> r r
+    f8\f^\arco f f f g g
+    a a g g g g %95
+    f f f f d' d
+    c c, c' c c c
+    c4 c, r
+    r8 c c' c c c
+    c4 c, r %100
+    r8 e g g g g
+    f4 c f~
+    f d g~
+    g e a~
+    a f b~ %105
+    b g c~
+    c f, f
+    g8 g g g f f
+    b b c c c, c
+    f4 r r %110
+    c'8\fz g e c f f,
+    b d c b c c,
+    f4 r r
+    g'8\fz c g e f c
+    b b c c c, c %115
+    f4 << { a' a } \\ { f\p f } >>
+    r << { g g } \\ { e e } >>
+    r8 h( d\> c\! a f)
+    e h'( d\> c\! b g)
+    f4 <f a> q %120
+    q r r\fermata \bar "|." %121 finis
+  }
+}
+
+AgnusLongViola = {
+  \relative c' {
+    \clef alto
+    \key des \major \time 4/4 \tempoAgnusLong
+    f,8\pE^\conSord f f f ges ges ges ges
+    es es es es f f f f
+    ges ges ges ges f f f f
+    f f g b b16( as) c8(-. c^[-. c]-.)
+    \key a \minor h! h h h cis\f cis cis cis %5
+    h\decresc h h h h\pp h h h
+    cis cis cis cis fis, h h h
+    dis dis dis dis fis\f fis fis fis
+    fis\p fis eis eis fis4 r
+    \key des \major r8 << { es~ es16 ( des ces b) as4 } \\ { ces8~ ces16( b as ges) f4 } >> r %10
+    r8 << { des'~ des16( ces b as) ges4 } \\ { b8~ b16( as ges f) es4 } >> r
+    r8 << { ces'~ ces16( b as ges) f8 as des des } \\ { as~ as16( ges f es) des8 f as des } >>
+    des b b b ces ces ces ces
+    as as as as b b b b
+    ces ces ces ces b b b b %15
+    ces ces16( es) es( f) f( ges!) f8 b,(-. b-. b-.)
+    b b b b c!\f c c c
+    b\decresc b b b b\pp b b b
+    c! c c c f, b b b
+    b\cresc b c c\!
+    << {
+      es es es es %20
+      es es es es es4
+    } \\ {
+      des!8\f des c es %20
+      es\p es es des c4
+    } >> r
+    r8 << { f~ f16( es des c) b4 } \\ { des8~ des16( c b as) g4 } >> r
+    r8 << { es'~ es16( des c b) as4 } \\ { c8~ c16( b as g) f4 } >> r
+    r8 << { des'~ des16( c b as) g8 b es es } \\ { b~ b16( as g f) es8 g b es } >>
+    es c c c des des des des %25
+    b b b b c c c c
+    des des des des c c as as
+    des des e, c' c c c c
+    f f f f g g, as as
+    b g as f g g as d %30
+    g,4 r16 e( g c) e4 r
+    r8 r16 g,(\f c e g c) e4 r^\senzaSord
+    r8. e,16\f e8 e e4\fermata r\fermata \bar "||" %33 finis
+  }
+}

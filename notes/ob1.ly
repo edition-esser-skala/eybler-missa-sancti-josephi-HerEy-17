@@ -492,3 +492,161 @@ CredoOboeI = {
     f r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusOboeI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoSanctus
+    r2 r8 b'\p b b
+    b4 r r8 c\cresc c c
+    d4\! r r2
+    r r8 g,\p g g
+    g c4 c8 r e4\cresc e8 \noBreak %5
+    r g4\f g8 b4 r
+    \time 3/4 \tempoPleni
+      a,2.\f \noBreak
+    b
+    h
+    c %10
+    e
+    f
+    g2 b,4
+    r a c
+    f2. %15
+    g8 f e d c b
+    a2 g4
+    r8 f g a b c
+    d a b c d e
+    f c d e f g %20
+    a e f g a b
+    c4 r r
+    b r r
+    e, r r
+    f r r %25
+    \pa f, a c
+    f \pd f f
+    f r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusOboeI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/4 \tempoBenedictus
+    R1.*3
+    r2 r4 r f'(\p a,)
+    b r r r2 r4 %5
+    R1.*7 %12
+    f2\p b4 b( a b)
+    c2( \grace es8 d4) c r d(
+    b g) c a( b c) %15
+    d2 c4\trill b f\pp f
+    f2 \pa b4~ b a \pd b
+    c2 \appoggiatura es8 d4 c r \pa d
+    b g c a b \pd c
+    d2 c4 \pao b r r %20
+    r a a b d r
+    r a a b d r
+    d2\fz r4 es2\fz r4
+    \pa f4.\sfp g8 es c b4( a) \pd r
+    r f b~ b a b %25
+    \appoggiatura { c16[ d] } es2 d4\trill c r d
+    b g c a b es
+    d2 c4\trill r \pa b\f b \pd
+    es2 d4 f2 es4
+    g2.~ g %30
+    f4 b, b b r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key des \major \time 4/4 \tempoAgnus
+    R1*4
+    \key a \minor R1*5
+    \key des \major R1*13 \noBreak %22
+    R1\fermata \bar "||"
+    \key f \major \time 3/4 \tempoDona
+      R2.*10 %33
+    es'2.\f
+    d4 r r %35
+    R2.*8 %43
+    g2\f fis4
+    f2 e4~ %45
+    e d c
+    h r d
+    e4. d8 e f
+    d4 r d
+    e4. d8 e f %50
+    d4 d d
+    \pa g8 f e d c h
+    a4. cis8 d e
+    f e d c h a
+    g4. h8 c d %55
+    e d f e a g
+    fis4 \pd f e
+    d c h
+    c r r
+    g'2\fz e4 %60
+    d c h
+    c r r
+    g'4.\fz f8 e4
+    \appoggiatura g8 f4 e d
+    \pao c4 r r %65
+    R2.*6 %71
+    r4 b!\f b
+    b2\fermata r4\fermata
+    R2.*10 %83
+    es2.\f
+    d4 r r %85
+    R2.*8 %93
+    d'2\f cis4
+    c h b %95
+    a f b
+    g r e
+    f4. e8 f g
+    e4 r g
+    a4. g8 a b %100
+    g4 \pa c, c
+    c2.
+    d
+    e
+    f %105
+    g
+    a8 g b a d c
+    h4 \pd b a
+    g f e
+    f r r %110
+    e2\fz f4
+    b, a g
+    a r r
+    b'2\fz a4
+    g f e %115
+    f r r
+    R2.*4 %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}
+
+AgnusLongOboeI = {
+  \relative c' {
+    \clef treble
+    \key des \major \time 4/4 \tempoAgnusLong
+    R1*4
+    \key a \minor R1*5 %9
+    \key des \major r8 es'4(\pE ces8 as4) r %10
+    r8 des4( b8 ges4) r
+    r8 ces4( as8 f) as'4 ces,8
+    b r r4 r2
+    R1*8 %21
+    r8 f'4(\pE des8 b4) r
+    r8 es4( c8 as4) r
+    r8 des4( b8 g) b'4 des,8
+    c r r4 r2 %25
+    R1*5 %30
+    r8 g\p g g g4 r
+    r8 b\f b b b4 r
+    R1\fermata \bar "||" %33 finis
+  }
+}

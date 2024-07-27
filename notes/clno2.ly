@@ -256,3 +256,94 @@ CredoClarinoII = {
     g r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*2
+    g'4\f r g r
+    R1*2 \noBreak %5
+    c,2~\f c4 r
+    \time 3/4 \tempoPleni
+      R2.*4 %10
+    d'4 r r
+    g, r r
+    R2.
+    g,4 g8 g g g
+    g4 e' g %15
+    c r r
+    R2.
+    g,4 r r
+    R2.*6 %24
+    g4 r r %25
+    g r r
+    g g g
+    g r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoBenedictus
+    R1.*24 %24
+    e4\pp r r r2 r4 %25
+    g2 c4 g r r
+    r2 r4 r c, c
+    c'2 g4 e r r
+    c\f r r c r r
+    c r8 c16 c c8 c c4 c c %30
+    c e e e r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*22 \noBreak %22
+    R1\fermata \bar "||"
+    \time 3/4 \tempoDona
+      R2.*21 %44
+    g'2\f c4 %45
+    R2.
+    r4 g, g
+    g r r
+    r g g
+    g r r %50
+    r g g
+    g r r
+    R2.*4 %56
+    c4 g' c
+    r g, g
+    c r r
+    R2.*3 %61
+    g'2\fz c4
+    r c g
+    e r r %65
+    R2.*3
+    c4\f r r
+    R2. %70
+    r4 c\f c
+    c2.~
+    c4 r r\fermata
+    R2.*23 %96
+    r4 c\f c
+    c r r
+    r c c
+    c r r %100
+    r c c
+    c r r
+    R2.*5 %107
+    g'4 c, c
+    r c c
+    c r r %110
+    R2.*3
+    c2\fz r4
+    r c c %115
+    c r r
+    R2.*4 %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}

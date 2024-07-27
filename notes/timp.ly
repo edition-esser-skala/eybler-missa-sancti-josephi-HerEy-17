@@ -209,3 +209,92 @@ CredoTimpani = {
     g r r\fermata \bar "|." %256 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    R1*2
+    c4\f r g r
+    R1*2 \noBreak %5
+    c2~\f\startTrillSpan c4\stopTrillSpan r
+    \time 3/4 \tempoPleni
+      R2.*4 %10
+    c4 r r
+    g r r
+    R2.
+    g8 g16 g g8 g g g
+    g4 r r %15
+    c r r
+    R2.
+    g4 r r
+    R2.*6 %24
+    g4 r r %25
+    g r r
+    g g g
+    g r r\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 6/4 \tempoBenedictus
+    R1.*24 %24
+    c4\pp r r r2 r4 %25
+    r g c g r r
+    R1.
+    r4 g g c r r
+    c\f r r c r r
+    c r8 \tuplet 3/2 8 { c16 c c } c8 c c4 c c %30
+    c c c c r r\fermata \bar "|." %31 finis
+  }
+}
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*22 \noBreak %22
+    R1\fermata \bar "||"
+    \time 3/4 \tempoDona
+      R2.*21 %44
+    g2\f\trill c4 %45
+    R2.*2
+    g4 r r
+    R2.
+    g4 r r %50
+    R2.
+    g4 r r
+    R2.*4 %56
+    c4 g c
+    r g g
+    c r r
+    R2.*3 %62
+    g2\fz\trill c4
+    r g g
+    c r r %65
+    R2.*3
+    c4\f r r
+    R2. %70
+    r4 c\f c
+    c2.~\startTrillSpan
+    c4 r\stopTrillSpan r\fermata
+    R2.*24 %97
+    c4\f r r
+    R2.
+    c4 r r %100
+    R2.
+    c4 r r
+    R2.*5 %107
+    g4 c c
+    r c c
+    c r r %110
+    R2.*3
+    c2~\fz\trill c8 r
+    r4 c c %115
+    c r r
+    R2.*4 %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}

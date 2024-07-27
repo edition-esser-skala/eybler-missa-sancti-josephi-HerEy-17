@@ -1229,3 +1229,424 @@ CredoTenoreLyrics = \lyricmode {
   a --
   men. %255 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a2\p^\tuttiE b4 r
+    c2\cresc c4 r
+    b\f d c8. c16 c4
+    c8 c c8.\decresc c16 c4 r
+    g8.([\p c16)] c8 r c8.([\cresc e16)] e8 r \noBreak %5
+    e4.(\f g8) g4 r
+    \time 3/4 \tempoPleni
+      c,\f c c \noBreak
+    d2 d4
+    d d d
+    c2 c4 %10
+    c2 c4
+    c c c
+    c c c
+    c a r
+    c d es %15
+    d f b,
+    c2( b4)
+    a r r
+    R2.*3 %21
+    f'2.
+    f2 f4
+    c2 c4
+    c2.~ %25
+    c
+    c4 r r
+    R2.\fermata \bar "|." %28 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus
+  De -- us Sa -- ba -- oth,
+  san -- ctus, san -- ctus, %5
+  san -- ctus.
+  Ple -- ni sunt
+  coe -- li,
+  coe -- li et
+  ter -- ra, %10
+  ple -- ni,
+  ple -- ni sunt
+  coe -- li et
+  ter -- ra
+  glo -- _ _ %15
+  _ ri -- a
+  tu --
+  a.
+
+  O -- %22
+  san -- na
+  in ex --
+  cel -- %25
+
+  sis. %27 finis
+}
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 6/4 \autoBeamOff \tempoBenedictus
+    R1.*4
+    \mvTr f,2\pE^\solo b4 b a b %5
+    c2( \grace es8 d4) c r d
+    b g c a b c
+    d2 c4 b f b
+    d b e, f c' b
+    a f r r f fis %10
+    g b e, f d e
+    f( f') es! d d b
+    f d g f( es') d
+    c( a) b f a d,
+    d' d c c b g %15
+    f( f') a, b d, f
+    b d c c( f,) f
+    es'2 d8([ b)] a4 c a
+    b d g, a f b
+    b( f') a, b r r %20
+    a2 c4 f,8([ d')] d4 r
+    a r c f,8([ d')] d4 f,
+    f'4.\fz es8 d4 a4.\fz b8 c4
+    b2\fz g'8([ es)] d4( c) r
+    \mvTr b2\p^\tutti b4 c c d %25
+    c2( b4) a r a
+    g g g f f' es!
+    f( d) a b r b\f
+    b2 d4 d2 es4
+    es2.~ es %30
+    d2 r4 r2 r4\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %5
+  ve -- nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, be -- ne --
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit, be -- ne -- %10
+  di -- ctus in no -- mi -- ne
+  Do -- mi -- ni, be -- ne --
+  di -- ctus, qui ve -- nit,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne %15
+  Do -- mi -- ni, be -- ne --
+  di -- ctus, qui ve -- nit,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, %20
+  be -- ne -- di -- ctus,
+  qui, qui ve -- nit in
+  no -- mi -- ne, no -- mi -- ne
+  Do -- mi -- ni. __
+  Be -- ne -- di -- ctus, qui %25
+  ve -- nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni. O --
+  san -- na in ex --
+  cel -- %30
+  sis. %31 finis
+}
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key des \major \time 4/4 \autoBeamOff \tempoAgnus
+    r2 \mvTr c4.\pE^\solo es8
+    ges([ es)] c ges f as r des
+    c16([ b)] b8 r des des16([ as)] as8 r f'
+    f es16 des c([ b)] es([ g,)] b([ as)] as8 r4
+    \key a \minor \mvTr h!8.\p^\tutti h16 h8 h cis2\f %5
+    h4 r h8.\pp h16 h8 h
+    \after 4 \> cis2\< fis,4\! r
+    gis fis h\f ais
+    gis2\p fis4 r
+    \key des \major R1*3 %12
+    r2 \mvTr b8.\p^\tutti b16 b8 b
+    c!2\f b4 r
+    b8.\pp b16 b8 b \after 4 \> c2\< %15
+    f,4\! r b\cresc as!
+    b\f c8([ es)] es4.(\p des8)
+    c4 r r2
+    R1*4 \noBreak %22
+    r8 \mvDl \after 8 \cresc e4\p^\markup \remark "T." e8 e8.([\f g16)] g4\fermata \bar "||"
+    \key f \major \time 3/4 \tempoDona \newSpacingSection
+      r4 \mvTr f\pE^\solo a, \noBreak
+    b2 c4 %25
+    d( e) f
+    c c, r
+    \mvTr a'2.\p^\tutti
+    g4 r r
+    g2. %30
+    f4 r r
+    c'2\fp c4
+    d2\sfp d4
+    c2.\f
+    b4 r r %35
+    r b\f b
+    d4.( b8) d([\p b)]
+    a2( b4)
+    a r r
+    g2. %40
+    f4 r r
+    d'2.\cresc
+    c4 r r
+    e2\f d4
+    d2 c4 %45
+    a(^\critnote f') e
+    d h r
+    c4. h8 c d
+    h4 g r
+    c4. h8 c d %50
+    h4 g r
+    r8 g[ g' f e d]
+    c4. e8[ f g]
+    a[ g f e d c]
+    h4. d8[ e f] %55
+    g4 c, c
+    c( d) e
+    f( e d)
+    e c c
+    d2\fz e4 %60
+    f( e d)
+    e c8 c c c
+    d2\fz e4
+    f( e d)
+    c r r %65
+    h2.\p
+    c4 r r
+    d2.
+    c4 r r
+    R2. %70
+    r4 c\f e
+    e2( g4)
+    g2\fermata r4\fermata
+    \mvTr f2\pE^\solo e4
+    e( d) c %75
+    c( b) a
+    a g r
+    \mvTr d'2.\p^\tutti
+    d4 r r
+    c2. %80
+    c4 r r
+    c2 c4
+    f(\cresc es) d
+    c2.\f
+    b4 r r %85
+    r b\f b
+    d4.( b8) d([\p b)]
+    a2( b4)
+    a r r
+    g2. %90
+    f4 r r
+    c'2.\cresc
+    b4 r r
+    d2\f e!4
+    d2 c4 %95
+    c( d) d
+    c c r
+    r c c
+    c2.
+    c4 c c %100
+    c4. c8 c c
+    c[ b a g f e]
+    d4. b'8[ c d]
+    e[ d c b a g]
+    f4. d'8[ e f] %105
+    g[ f e d c b]
+    a[ c] f4 f
+    f( g) f
+    d( c2)
+    c4 a a %110
+    c2\fz a4
+    d( c2)
+    c4 f8 f f f
+    g2\fz f4
+    d( c4. b8) %115
+    a4 r r
+    e'2.\p
+    f4 r r
+    g,2.\pp
+    f4 r r %120
+    R2.\fermata \bar "|." %121 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re no -- %5
+  bis, mi -- se -- re -- re
+  no -- bis,
+  mi -- se -- re -- re
+  no -- bis. %10
+
+  Mi -- se -- re -- re %13
+  no -- bis,
+  mi -- se -- re -- re no -- %15
+  bis, mi -- se --
+  re -- re no --
+  bis.
+
+  A -- gnus De -- i:
+  Do -- na,
+  do -- na %25
+  no -- bis
+  pa -- cem,
+  pa --
+  cem,
+  pa -- %30
+  cem,
+  do -- na
+  pa -- cem
+  no --
+  bis, %35
+  do -- na
+  no -- bis
+  pa --
+  cem,
+  pa -- %40
+  cem,
+  pa --
+  cem,
+  do -- na,
+  do -- na, %45
+  no -- bis
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem,
+  no -- bis do -- na %50
+  pa -- cem,
+  pa --
+  _ _
+  _
+  _ _ %55
+  _ _ cem,
+  do -- na
+  pa --
+  cem, do -- na
+  no -- bis %60
+  pa --
+  cem, do -- na no -- bis
+  pa -- cem,
+  pa --
+  cem, %65
+  pa --
+  cem,
+  pa --
+  cem.
+  %70
+  A -- gnus
+  De --
+  i,
+  do -- na,
+  do -- na %75
+  no -- bis
+  pa -- cem,
+  pa --
+  cem,
+  pa -- %80
+  cem,
+  do -- na
+  pa -- cem
+  no --
+  bis, %85
+  do -- na
+  no -- bis
+  pa --
+  cem,
+  pa -- %90
+  cem,
+  pa --
+  cem,
+  do -- na,
+  do -- na %95
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, pa -- cem, %100
+  do -- na no -- bis
+  pa --
+  _ _
+  _
+  _ _ %105
+  _
+  _ _ cem,
+  pa -- cem,
+  pa --
+  cem, do -- na %110
+  no -- bis
+  pa --
+  cem, do -- na no -- bis
+  pa -- cem,
+  pa -- %115
+  cem,
+  pa --
+  cem,
+  pa --
+  cem. %120 finis
+}
+
+AgnusLongTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key des \major \time 4/4 \autoBeamOff \tempoAgnusLong
+    r2 \mvTr c4.\pE^\solo es8
+    ges([ es)] c ges f as r des
+    c16([ b)] b8 r des des16([ as)] as8 r f'
+    f es16 des c([ b)] es([ g,)] b([ as)] as8 r4
+    \key a \minor \mvTr h!8.\p^\tutti h16 h8 h cis2\f %5
+    h4 r h8.\pp h16 h8 h
+    \after 4 \> cis2\< fis,4\! r
+    gis fis h\f ais
+    gis2\p fis4 r
+    \key des \major R1*7 %16
+    \mvTr b8.\p^\tutti b16 b8 b c!2\f
+    b4 r b8.\pp b16 b8 b
+    \after 4 \> c2\< f,4\! r
+    b\cresc as! b\f c8([ es)] %20
+    es4.(\p des8) c4 r
+    R1*7 %28
+    r2 \mvTr c4\p^\tutti c
+    c8 c r c c c16 c h8 d %30
+    g, g r4 g4.\cresc g8
+    g8.([ b16)] b4 b4.\f e8
+    e4.( g8) g4\fermata r\fermata \bar "||" %33 finis
+  }
+}
+
+AgnusLongTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re no -- %5
+  bis, mi -- se -- re -- re
+  no -- bis,
+  mi -- se -- re -- re
+  no -- bis. %10
+
+  Mi -- se -- re -- re no -- %17
+  bis, mi -- se -- re -- re
+  no -- bis,
+  mi -- se -- re -- re %20
+  no -- bis.
+
+  A -- gnus %29
+  De -- i, qui tol -- lis pec -- ca -- ta %30
+  mun -- di, A -- gnus
+  De -- i, A -- gnus
+  De -- i: %33 finis
+}

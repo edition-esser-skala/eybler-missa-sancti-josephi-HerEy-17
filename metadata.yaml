@@ -1,10 +1,10 @@
 composer:
   last: Eybler
   first: Joseph Leopold Edler von
-title: Missa Sancti Josephi (Sancti Rudolphi)
+title: Missa Sancti Josephi (de Sancto Rudolpho)
 id: HerEy 17
 genre: mass
-scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (F), 2 clno (\flat B/C), timp (\flat B–F/C–G), 2 vl, vla, vlc, b, org
+scoring: S, A, 2 T, 2 B (solo), S, A, T, B (coro), 2 ob, 2 fag,\\2 cor (F), 2 clno (\flat B/C), timp (\flat B–F/C–G), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
   A1:

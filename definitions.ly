@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
@@ -37,10 +37,14 @@ tuttiTB = \markup { \override #'(baseline-skip . 2) \remark \left-column { "T & 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro"
 tempoCredo = \tempoMarkup "Allegro moderato"
-  % tempoEtIncarnatus = \tempoMarkup "Adagio"
-  % tempoEtResurrexit = \tempoMarkup "Allegro"
-  tempoEtIncarnatus = \tempo 4 = 55
-  tempoEtResurrexit = \tempo 4 = 120
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro vivace"
+tempoBenedictus = \tempoMarkup "Andante cantabile"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoDona = \tempoMarkup "Allegro"
+tempoAgnusLong = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"
