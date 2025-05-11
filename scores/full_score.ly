@@ -3,6 +3,13 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+% for print
+% also change instrument name of clno 1/2 in Credo
+% \paper {
+%   outer-margin = 1.7\cm
+%   inner-margin = 1.8\cm
+% }
+
 \book {
   \bookpart {
     \section "1" "Kyrie"
@@ -197,6 +204,7 @@
             \partCombine #'(0 . 10) \CredoCornoI \CredoCornoII
           >>
           \new Staff <<
+            % \set Staff.instrumentName = \markup \center-column { "clno" \concat { "(" #(make-one-pitch "B" "flat") ")" } "1, 2" }
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "B" "flat" "1, 2" }
             % \transpose c b,
             \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
